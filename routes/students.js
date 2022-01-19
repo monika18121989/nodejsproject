@@ -14,7 +14,7 @@ router.get('/add',function (req,res){
         firstName:'Kiran',
         lastName:'Chopra',
         age:21,
-        dob:'1990-12-11',
+        dob:'1991-12-11',
         department:'CSE'
     })
     newStudent.save(function(err,newStudent){
